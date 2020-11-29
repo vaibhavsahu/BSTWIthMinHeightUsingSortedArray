@@ -2,8 +2,6 @@ package com.vaibhav.example;
 
 public class Main {
 
-    private static int index = 0;
-
     public static void main(String[] args) {
 	    int [] sortedArray = {1,2,7,8,11,13,15};
 	    Node root = makeBSTArray(sortedArray, 0, sortedArray.length-1, null);
